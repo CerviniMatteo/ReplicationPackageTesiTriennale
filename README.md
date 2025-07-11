@@ -24,7 +24,6 @@ This replication package contains:
 
 - Results from the Understand tool analysis: 📁 [Understand Tool Analyses](./Understand%20tool%20analyses/)
 
-
     Which has the following structure:
 
         Understand tool analysis/
@@ -38,4 +37,19 @@ This replication package contains:
         │   └── <n>th analysis/
         │       ├── microservice-recruit[-n].csv
 - Scripts used to manage Understand tool analysis: 📄 [Script File](./understand_metrics_script.csv)
-- Generated diagrams
+- Generated diagrams: 📁 [Diagrams](./Diagrams/)
+
+    Which has the following structure:
+
+        Diagrams/
+        ├── cangjingge project/
+        │   └── <n>th refactoring/
+        │   │   ├── depencies-Cangjingge-R[-n].png
+        │   └── NEW micro service
+        │       ├── depencies-GMS-new-MS.png
+        ├── grocery-micro-service project/
+        │   └── <n>th refactoring/
+        │       ├── depencies-GMS-R[-n].png
+        ├── microservice-recruit project/
+        │   └── <n>th refactoring/
+        │       ├── depencies-RC-R[-n].png
