@@ -45,11 +45,12 @@ This replication package contains:
         ├── cangjingge project/
         │   └── <n>th refactoring/
         │   │   ├── depencies-Cangjingge-R[-n].png
-        │   └── NEW micro service
-        │       ├── depencies-GMS-new-MS.png
+        │   └
         ├── grocery-micro-service project/
         │   └── <n>th refactoring/
         │       ├── depencies-GMS-R[-n].png
+        |   └── NEW micro service
+        │       ├── depencies-GMS-new-MS.png
         ├── microservice-recruit project/
         │   └── <n>th refactoring/
         │       ├── depencies-RC-R[-n].png
