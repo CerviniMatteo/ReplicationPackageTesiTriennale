@@ -1,0 +1,934 @@
+Kind,Name,AvgCyclomatic,MaxCyclomatic,SumCyclomatic,CountClassCoupled,MaxInheritanceTree,PercentLackOfCohesion
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-consumer/src/main/java/com/stalary/pf/consumer/ConsumerApplication.java,1,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-consumer/src/main/java/com/stalary/pf/consumer/client/MessageClient.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-consumer/src/main/java/com/stalary/pf/consumer/client/OutsideClient.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-consumer/src/main/java/com/stalary/pf/consumer/client/PushClient.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-consumer/src/main/java/com/stalary/pf/consumer/client/RecruitClient.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-consumer/src/main/java/com/stalary/pf/consumer/client/ResumeClient.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-consumer/src/main/java/com/stalary/pf/consumer/client/UserClient.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-consumer/src/main/java/com/stalary/pf/consumer/config/FeignConfig.java,1,1,3,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-consumer/src/main/java/com/stalary/pf/consumer/data/constant/Constant.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-consumer/src/main/java/com/stalary/pf/consumer/data/dto/Email.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-consumer/src/main/java/com/stalary/pf/consumer/data/dto/Message.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-consumer/src/main/java/com/stalary/pf/consumer/data/dto/Recruit.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-consumer/src/main/java/com/stalary/pf/consumer/data/dto/ResponseMessage.java,1,1,7,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-consumer/src/main/java/com/stalary/pf/consumer/data/dto/SendResume.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-consumer/src/main/java/com/stalary/pf/consumer/data/dto/UserInfo.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-consumer/src/main/java/com/stalary/pf/consumer/service/Consumer.java,2,5,11,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-consumer/src/test/java/com/stalary/pf/consumer/ConsumerApplicationTests.java,1,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-gateway/src/main/java/com/stalary/pf/gateway/GatewayApplication.java,1,1,2,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-gateway/src/main/java/com/stalary/pf/gateway/client/UserCenterClient.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-gateway/src/main/java/com/stalary/pf/gateway/config/CorsConfig.java,2,4,7,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-gateway/src/main/java/com/stalary/pf/gateway/config/FeignConfig.java,1,1,3,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-gateway/src/main/java/com/stalary/pf/gateway/data/ProjectInfo.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-gateway/src/main/java/com/stalary/pf/gateway/data/ResponseMessage.java,1,1,7,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-gateway/src/main/java/com/stalary/pf/gateway/data/User.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-gateway/src/main/java/com/stalary/pf/gateway/exception/ExceptionHandle.java,1,5,14,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-gateway/src/main/java/com/stalary/pf/gateway/exception/MyException.java,1,1,2,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-gateway/src/main/java/com/stalary/pf/gateway/exception/ResultEnum.java,0,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-gateway/src/main/java/com/stalary/pf/gateway/filter/AuthFilter.java,3,6,9,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-gateway/src/test/java/com/stalary/pf/gateway/GatewayApplicationTests.java,1,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-message/src/main/java/com/stalary/pf/message/MessageApplication.java,1,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-message/src/main/java/com/stalary/pf/message/client/PushClient.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-message/src/main/java/com/stalary/pf/message/controller/MessageController.java,1,1,6,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-message/src/main/java/com/stalary/pf/message/data/dto/ProjectInfo.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-message/src/main/java/com/stalary/pf/message/data/dto/ReadMessage.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-message/src/main/java/com/stalary/pf/message/data/dto/User.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-message/src/main/java/com/stalary/pf/message/data/entity/MessageEntity.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-message/src/main/java/com/stalary/pf/message/data/vo/ResponseMessage.java,1,1,9,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-message/src/main/java/com/stalary/pf/message/exception/ExceptionHandle.java,2,2,2,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-message/src/main/java/com/stalary/pf/message/exception/MyException.java,1,1,2,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-message/src/main/java/com/stalary/pf/message/exception/ResultEnum.java,0,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-message/src/main/java/com/stalary/pf/message/repo/MessageRepo.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-message/src/main/java/com/stalary/pf/message/service/MessageService.java,1,1,6,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-message/src/main/java/com/stalary/pf/message/util/UserUtil.java,2,2,2,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-message/src/test/java/com/stalary/pf/message/MessageApplicationTests.java,1,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-outside/src/main/java/com/stalary/pf/outside/OutsideApplication.java,1,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-outside/src/main/java/com/stalary/pf/outside/client/UserClient.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-outside/src/main/java/com/stalary/pf/outside/config/CacheConfig.java,1,1,7,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-outside/src/main/java/com/stalary/pf/outside/config/FeignConfig.java,1,1,3,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-outside/src/main/java/com/stalary/pf/outside/config/PrefixRedisSerializer.java,1,2,5,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-outside/src/main/java/com/stalary/pf/outside/controller/OutsideController.java,1,2,4,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-outside/src/main/java/com/stalary/pf/outside/data/Constant.java,1,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-outside/src/main/java/com/stalary/pf/outside/data/Email.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-outside/src/main/java/com/stalary/pf/outside/data/ResponseMessage.java,1,1,9,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-outside/src/main/java/com/stalary/pf/outside/data/UploadAvatar.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-outside/src/main/java/com/stalary/pf/outside/exception/ExceptionHandle.java,2,2,2,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-outside/src/main/java/com/stalary/pf/outside/exception/MyException.java,1,1,2,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-outside/src/main/java/com/stalary/pf/outside/exception/ResultEnum.java,0,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-outside/src/main/java/com/stalary/pf/outside/service/MailService.java,2,2,3,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-outside/src/main/java/com/stalary/pf/outside/service/QiNiuService.java,2,3,4,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-outside/src/main/java/com/stalary/pf/outside/service/SmsService.java,2,3,6,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-outside/src/main/java/com/stalary/pf/outside/service/UserService.java,1,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-outside/src/main/java/com/stalary/pf/outside/util/UserUtil.java,2,2,2,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-outside/src/test/java/com/stalary/pf/outside/OutsideApplicationTests.java,1,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-push/src/main/java/com/stalary/pf/push/PushApplication.java,1,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-push/src/main/java/com/stalary/pf/push/config/CacheConfig.java,1,1,9,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-push/src/main/java/com/stalary/pf/push/config/PrefixRedisSerializer.java,1,2,5,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-push/src/main/java/com/stalary/pf/push/config/WebSocketConfig.java,1,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-push/src/main/java/com/stalary/pf/push/controller/FacadeController.java,1,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-push/src/main/java/com/stalary/pf/push/service/MessageService.java,3,3,3,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-push/src/main/java/com/stalary/pf/push/service/WebSocketService.java,1,2,12,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-push/src/test/java/com/stalary/pf/push/PushApplicationTests.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/RecruitApplication.java,1,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/client/ResumeClient.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/client/UserClient.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/config/CacheConfig.java,1,1,7,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/config/FeignConfig.java,1,1,3,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/config/PrefixRedisSerializer.java,1,2,5,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/controller/CompanyController.java,1,1,5,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/controller/RecruitController.java,1,1,11,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/data/constant/Constant.java,1,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/data/dto/CompanyAndJob.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/data/dto/GetResumeRate.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/data/dto/RecommendUser.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/data/dto/RecruitDto.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/data/dto/ResumeRate.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/data/dto/SendResume.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/data/dto/SkillRule.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/data/dto/User.java,1,1,2,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/data/dto/UserInfo.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/data/dto/vo/HR.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/data/entity/BaseEntity.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/data/entity/CompanyEntity.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/data/entity/RecruitEntity.java,1,1,2,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/data/vo/Candidate.java,1,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/data/vo/CompanyAndRecruit.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/data/vo/RecommendCandidate.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/data/vo/RecommendRecruit.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/data/vo/RecruitAndCompany.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/data/vo/RecruitAndHrAndCompany.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/data/vo/ResponseMessage.java,1,1,7,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/exception/ExceptionHandle.java,2,2,2,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/exception/ExceptionThreadFactory.java,1,1,2,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/exception/ExecutorExceptionHandler.java,1,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/exception/MyException.java,1,1,2,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/exception/ResultEnum.java,0,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/repo/BaseRepo.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/repo/CompanyRepo.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/repo/RecruitRepo.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/service/RecruitService.java,2,4,70,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/main/java/com/stalary/pf/recruit/util/RecruitUtil.java,2,2,3,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-recruit/src/test/java/com/stalary/pf/recruit/RecruitApplicationTests.java,1,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/ResumeApplication.java,1,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/annotation/AutoValue.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/annotation/CreateTime.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/annotation/UpdateTime.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/client/RecruitClient.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/client/UserClient.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/config/CacheConfig.java,1,1,7,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/config/FeignConfig.java,1,1,3,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/config/MongoEventListener.java,3,4,5,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/config/PrefixRedisSerializer.java,1,2,5,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/controller/ResumeController.java,1,1,5,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/data/constant/Constant.java,1,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/data/constant/RedisKeys.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/data/dto/GetResumeRate.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/data/dto/ReceiveResume.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/data/dto/Recruit.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/data/dto/ResumeRate.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/data/dto/SendResume.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/data/dto/SkillRule.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/data/dto/UserInfo.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/data/entity/BaseEntity.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/data/entity/Resume.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/data/entity/SeqInfo.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/data/entity/Skill.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/data/vo/ResponseMessage.java,1,1,8,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/exception/ExceptionHandle.java,2,2,2,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/exception/MyException.java,1,1,2,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/exception/ResultEnum.java,0,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/repo/BaseRepo.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/repo/ResumeRepo.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/repo/SkillRepo.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/service/BaseService.java,1,1,6,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/service/ResumeService.java,1,2,13,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/main/java/com/stalary/pf/resume/util/IdUtil.java,2,2,3,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-resume/src/test/java/com/stalary/pf/resume/ResumeApplicationTests.java,1,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/UserApplication.java,1,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/annotation/LoginRequired.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/client/MessageClient.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/client/RecruitClient.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/client/UserCenterClient.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/config/CacheConfig.java,1,1,7,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/config/FeignConfig.java,2,4,8,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/config/PrefixRedisSerializer.java,1,2,5,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/config/WebConfig.java,1,1,2,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/controller/UserController.java,1,2,20,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/data/constant/Constant.java,1,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/data/constant/RedisKeys.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/data/dto/Applicant.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/data/dto/CompanyAndJob.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/data/dto/HR.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/data/dto/ProjectInfo.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/data/dto/RecommendUser.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/data/dto/Recruit.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/data/dto/SkillRule.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/data/dto/UploadAvatar.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/data/dto/User.java,1,1,3,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/data/entity/UserEs.java,1,1,3,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/data/entity/UserInfoEntity.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/data/vo/LoginVo.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/data/vo/ReceiveInfo.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/data/vo/ReceiveResume.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/data/vo/ResponseMessage.java,1,1,8,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/data/vo/SendInfo.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/data/vo/SendResume.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/exception/ExceptionHandle.java,2,2,2,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/exception/MyException.java,1,1,2,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/exception/ResultEnum.java,0,1,1,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/holder/IpHolder.java,1,1,3,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/holder/UserHolder.java,1,1,3,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/interceptor/LoginInterceptor.java,2,5,11,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/repo/UserEsRepo.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/repo/UserInfoRepo.java,0,0,0,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/service/ClientService.java,5,10,20,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/main/java/com/stalary/pf/user/service/UserInfoService.java,1,2,13,,,
+File,/home/teo/Documents/Stage/StageT/projects/RC/R1/microservice+AC0-recruit/pf+AC0-user/src/test/java/com/stalary/pf/user/BaseTest.java,1,1,1,,,
+Package,com,0,0,0,,,
+Package,com.stalary,0,0,0,,,
+Package,com.stalary.pf,0,0,0,,,
+Package,com.stalary.pf.consumer,1,1,2,,,
+Public Class,com.stalary.pf.consumer.ConsumerApplication,1,1,1,4,1,0
+Public Static Method,com.stalary.pf.consumer.ConsumerApplication.main,,,1,,,
+Public Class,com.stalary.pf.consumer.ConsumerApplicationTests,1,1,1,3,1,0
+Public Method,com.stalary.pf.consumer.ConsumerApplicationTests.contextLoads,,,1,,,
+Package,com.stalary.pf.consumer.client,0,0,0,,,
+Public Interface,com.stalary.pf.consumer.client.MessageClient,0,0,0,9,0,0
+Abstract Method,com.stalary.pf.consumer.client.MessageClient.getNotReadCount,,,0,,,
+Abstract Method,com.stalary.pf.consumer.client.MessageClient.saveMessage,,,0,,,
+Public Interface,com.stalary.pf.consumer.client.OutsideClient,0,0,0,5,0,0
+Abstract Method,com.stalary.pf.consumer.client.OutsideClient.sendEmail,,,0,,,
+Public Interface,com.stalary.pf.consumer.client.PushClient,0,0,0,6,0,0
+Abstract Method,com.stalary.pf.consumer.client.PushClient.sendMessage,,,0,,,
+Public Interface,com.stalary.pf.consumer.client.RecruitClient,0,0,0,6,0,0
+Abstract Method,com.stalary.pf.consumer.client.RecruitClient.getRecruit,,,0,,,
+Public Interface,com.stalary.pf.consumer.client.ResumeClient,0,0,0,5,0,0
+Abstract Method,com.stalary.pf.consumer.client.ResumeClient.handleResume,,,0,,,
+Public Interface,com.stalary.pf.consumer.client.UserClient,0,0,0,6,0,0
+Abstract Method,com.stalary.pf.consumer.client.UserClient.getEmail,,,0,,,
+Abstract Method,com.stalary.pf.consumer.client.UserClient.getUserInfo,,,0,,,
+Package,com.stalary.pf.consumer.config,1,1,3,,,
+Public Class,com.stalary.pf.consumer.config.FeignConfig,1,1,3,6,1,0
+Public Method,com.stalary.pf.consumer.config.FeignConfig.feignLoggerLevel,,,1,,,
+Public Method,com.stalary.pf.consumer.config.FeignConfig.feignRetryer,,,1,,,
+Public Method,com.stalary.pf.consumer.config.FeignConfig.options,,,1,,,
+Package,com.stalary.pf.consumer.data,0,0,0,,,
+Package,com.stalary.pf.consumer.data.constant,0,0,0,,,
+Public Class,com.stalary.pf.consumer.data.constant.Constant,0,0,0,1,1,0
+Package,com.stalary.pf.consumer.data.dto,1,1,7,,,
+Public Class,com.stalary.pf.consumer.data.dto.Email,0,0,0,4,1,0
+Public Class,com.stalary.pf.consumer.data.dto.Message,0,0,0,6,1,0
+Public Class,com.stalary.pf.consumer.data.dto.Recruit,0,0,0,4,1,0
+Public Generic Class,com.stalary.pf.consumer.data.dto.ResponseMessage,1,1,7,2,1,75
+Public Constructor,com.stalary.pf.consumer.data.dto.ResponseMessage.ResponseMessage,,,1,,,
+Public Constructor,com.stalary.pf.consumer.data.dto.ResponseMessage.ResponseMessage,,,1,,,
+Generic Parameter,com.stalary.pf.consumer.data.dto.ResponseMessage.T,0,0,0,0,1,0
+Public Static Method,com.stalary.pf.consumer.data.dto.ResponseMessage.error,,,1,,,
+Public Static Method,com.stalary.pf.consumer.data.dto.ResponseMessage.failedMessage,,,1,,,
+Public Static Method,com.stalary.pf.consumer.data.dto.ResponseMessage.failedMessage,,,1,,,
+Public Static Generic Method,com.stalary.pf.consumer.data.dto.ResponseMessage.successMessage,,,1,,,
+Public Static Method,com.stalary.pf.consumer.data.dto.ResponseMessage.successMessage,,,1,,,
+Generic Parameter,com.stalary.pf.consumer.data.dto.ResponseMessage.successMessage.T,0,0,0,0,1,0
+Public Class,com.stalary.pf.consumer.data.dto.SendResume,0,0,0,7,1,0
+Public Class,com.stalary.pf.consumer.data.dto.UserInfo,0,0,0,6,1,0
+Package,com.stalary.pf.consumer.service,2,5,11,,,
+Public Class,com.stalary.pf.consumer.service.Consumer,2,5,11,21,1,71
+Public Method,com.stalary.pf.consumer.service.Consumer.process,,,5,,,
+Public Method,com.stalary.pf.consumer.service.Consumer.setMessageClient,,,1,,,
+Private Method,com.stalary.pf.consumer.service.Consumer.setOutsideClient,,,1,,,
+Public Method,com.stalary.pf.consumer.service.Consumer.setPushClient,,,1,,,
+Private Method,com.stalary.pf.consumer.service.Consumer.setRecruitClient,,,1,,,
+Public Method,com.stalary.pf.consumer.service.Consumer.setResumeClient,,,1,,,
+Private Method,com.stalary.pf.consumer.service.Consumer.setUserClient,,,1,,,
+Package,com.stalary.pf.gateway,1,1,3,,,
+Public Class,com.stalary.pf.gateway.GatewayApplication,1,1,2,13,1,0
+Public Method,com.stalary.pf.gateway.GatewayApplication.errorWebExceptionHandler,,,1,,,
+Public Static Method,com.stalary.pf.gateway.GatewayApplication.main,,,1,,,
+Public Class,com.stalary.pf.gateway.GatewayApplicationTests,1,1,1,3,1,0
+Public Method,com.stalary.pf.gateway.GatewayApplicationTests.contextLoads,,,1,,,
+Package,com.stalary.pf.gateway.client,0,0,0,,,
+Public Interface,com.stalary.pf.gateway.client.UserCenterClient,0,0,0,6,0,0
+Abstract Method,com.stalary.pf.gateway.client.UserCenterClient.getProjectInfo,,,0,,,
+Abstract Method,com.stalary.pf.gateway.client.UserCenterClient.getUserInfo,,,0,,,
+Package,com.stalary.pf.gateway.config,1,4,10,,,
+Public Class,com.stalary.pf.gateway.config.CorsConfig,1,1,7,19,1,0
+Public Method,com.stalary.pf.gateway.config.CorsConfig.corsFilter,,,5,,,
+Lambda Method,com.stalary.pf.gateway.config.CorsConfig.corsFilter.(lambda+AF8-expr+AF8-1),,,4,,,
+Public Method,com.stalary.pf.gateway.config.CorsConfig.discoveryClientRouteDefinitionLocator,,,1,,,
+Public Method,com.stalary.pf.gateway.config.CorsConfig.serverCodecConfigurer,,,1,,,
+Public Class,com.stalary.pf.gateway.config.FeignConfig,1,1,3,6,1,0
+Public Method,com.stalary.pf.gateway.config.FeignConfig.feignLoggerLevel,,,1,,,
+Public Method,com.stalary.pf.gateway.config.FeignConfig.feignRetryer,,,1,,,
+Public Method,com.stalary.pf.gateway.config.FeignConfig.options,,,1,,,
+Package,com.stalary.pf.gateway.data,1,1,7,,,
+Public Class,com.stalary.pf.gateway.data.ProjectInfo,0,0,0,5,1,0
+Public Generic Class,com.stalary.pf.gateway.data.ResponseMessage,1,1,7,2,1,75
+Public Constructor,com.stalary.pf.gateway.data.ResponseMessage.ResponseMessage,,,1,,,
+Public Constructor,com.stalary.pf.gateway.data.ResponseMessage.ResponseMessage,,,1,,,
+Generic Parameter,com.stalary.pf.gateway.data.ResponseMessage.T,0,0,0,0,1,0
+Public Static Method,com.stalary.pf.gateway.data.ResponseMessage.error,,,1,,,
+Public Static Method,com.stalary.pf.gateway.data.ResponseMessage.failedMessage,,,1,,,
+Public Static Method,com.stalary.pf.gateway.data.ResponseMessage.failedMessage,,,1,,,
+Public Static Generic Method,com.stalary.pf.gateway.data.ResponseMessage.successMessage,,,1,,,
+Public Static Method,com.stalary.pf.gateway.data.ResponseMessage.successMessage,,,1,,,
+Generic Parameter,com.stalary.pf.gateway.data.ResponseMessage.successMessage.T,0,0,0,0,1,0
+Public Class,com.stalary.pf.gateway.data.User,0,0,0,4,1,0
+Package,com.stalary.pf.gateway.exception,1,5,17,,,
+Public Class,com.stalary.pf.gateway.exception.ExceptionHandle,2,5,12,26,1,75
+Private Class,com.stalary.pf.gateway.exception.ExceptionHandle.ResponseContext,1,1,2,3,1,0
+Public Method,com.stalary.pf.gateway.exception.ExceptionHandle.ResponseContext.messageWriters,,,1,,,
+Public Method,com.stalary.pf.gateway.exception.ExceptionHandle.ResponseContext.viewResolvers,,,1,,,
+Public Method,com.stalary.pf.gateway.exception.ExceptionHandle.handle,,,7,,,
+Lambda Method,com.stalary.pf.gateway.exception.ExceptionHandle.handle.(lambda+AF8-expr+AF8-1),,,1,,,
+Lambda Method,com.stalary.pf.gateway.exception.ExceptionHandle.handle.(lambda+AF8-expr+AF8-2),,,1,,,
+Protected Method,com.stalary.pf.gateway.exception.ExceptionHandle.renderErrorResponse,,,1,,,
+Public Method,com.stalary.pf.gateway.exception.ExceptionHandle.setMessageReaders,,,1,,,
+Public Method,com.stalary.pf.gateway.exception.ExceptionHandle.setMessageWriters,,,1,,,
+Public Method,com.stalary.pf.gateway.exception.ExceptionHandle.setViewResolvers,,,1,,,
+Private Method,com.stalary.pf.gateway.exception.ExceptionHandle.write,,,1,,,
+Public Class,com.stalary.pf.gateway.exception.MyException,1,1,2,5,2,0
+Public Constructor,com.stalary.pf.gateway.exception.MyException.MyException,,,1,,,
+Public Constructor,com.stalary.pf.gateway.exception.MyException.MyException,,,1,,,
+Public Enum Type,com.stalary.pf.gateway.exception.ResultEnum,0,1,1,3,1,
+Constructor,com.stalary.pf.gateway.exception.ResultEnum.ResultEnum,,,1,,,
+Public Implicit Method,com.stalary.pf.gateway.exception.ResultEnum.valueOf,,,0,,,
+Public Implicit Method,com.stalary.pf.gateway.exception.ResultEnum.values,,,0,,,
+Package,com.stalary.pf.gateway.filter,3,6,9,,,
+Public Class,com.stalary.pf.gateway.filter.AuthFilter,4,6,7,21,1,50
+Lambda Method,com.stalary.pf.gateway.filter.AuthFilter.(lambda+AF8-expr+AF8-1),,,2,,,
+Public Method,com.stalary.pf.gateway.filter.AuthFilter.filter,,,6,,,
+Public Method,com.stalary.pf.gateway.filter.AuthFilter.getOrder,,,1,,,
+Package,com.stalary.pf.message,1,1,2,,,
+Public Class,com.stalary.pf.message.MessageApplication,1,1,1,4,1,0
+Public Static Method,com.stalary.pf.message.MessageApplication.main,,,1,,,
+Public Class,com.stalary.pf.message.MessageApplicationTests,1,1,1,3,1,0
+Public Method,com.stalary.pf.message.MessageApplicationTests.contextLoads,,,1,,,
+Package,com.stalary.pf.message.client,0,0,0,,,
+Public Interface,com.stalary.pf.message.client.PushClient,0,0,0,6,0,0
+Abstract Method,com.stalary.pf.message.client.PushClient.sendMessage,,,0,,,
+Package,com.stalary.pf.message.controller,1,1,6,,,
+Public Class,com.stalary.pf.message.controller.MessageController,1,1,6,15,1,0
+Public Method,com.stalary.pf.message.controller.MessageController.getMessage,,,1,,,
+Public Method,com.stalary.pf.message.controller.MessageController.getNotReadCount,,,1,,,
+Public Method,com.stalary.pf.message.controller.MessageController.getSendMessage,,,1,,,
+Public Method,com.stalary.pf.message.controller.MessageController.readMessage,,,1,,,
+Public Method,com.stalary.pf.message.controller.MessageController.saveMessage,,,1,,,
+Public Method,com.stalary.pf.message.controller.MessageController.sendCount,,,1,,,
+Package,com.stalary.pf.message.data,0,0,0,,,
+Package,com.stalary.pf.message.data.dto,0,0,0,,,
+Public Class,com.stalary.pf.message.data.dto.ProjectInfo,0,0,0,5,1,0
+Public Class,com.stalary.pf.message.data.dto.ReadMessage,0,0,0,4,1,0
+Public Class,com.stalary.pf.message.data.dto.User,0,0,0,6,1,0
+Package,com.stalary.pf.message.data.entity,0,0,0,,,
+Public Class,com.stalary.pf.message.data.entity.MessageEntity,0,0,0,15,1,0
+Package,com.stalary.pf.message.data.vo,1,1,9,,,
+Public Generic Class,com.stalary.pf.message.data.vo.ResponseMessage,1,1,9,3,1,81
+Public Constructor,com.stalary.pf.message.data.vo.ResponseMessage.ResponseMessage,,,1,,,
+Public Constructor,com.stalary.pf.message.data.vo.ResponseMessage.ResponseMessage,,,1,,,
+Public Constructor,com.stalary.pf.message.data.vo.ResponseMessage.ResponseMessage,,,1,,,
+Generic Parameter,com.stalary.pf.message.data.vo.ResponseMessage.T,0,0,0,0,1,0
+Public Static Method,com.stalary.pf.message.data.vo.ResponseMessage.enumError,,,1,,,
+Public Static Method,com.stalary.pf.message.data.vo.ResponseMessage.error,,,1,,,
+Public Static Method,com.stalary.pf.message.data.vo.ResponseMessage.failedMessage,,,1,,,
+Public Static Method,com.stalary.pf.message.data.vo.ResponseMessage.failedMessage,,,1,,,
+Public Static Generic Method,com.stalary.pf.message.data.vo.ResponseMessage.successMessage,,,1,,,
+Public Static Method,com.stalary.pf.message.data.vo.ResponseMessage.successMessage,,,1,,,
+Generic Parameter,com.stalary.pf.message.data.vo.ResponseMessage.successMessage.T,0,0,0,0,1,0
+Package,com.stalary.pf.message.exception,1,2,5,,,
+Public Class,com.stalary.pf.message.exception.ExceptionHandle,2,2,2,9,1,0
+Public Method,com.stalary.pf.message.exception.ExceptionHandle.handle,,,2,,,
+Public Class,com.stalary.pf.message.exception.MyException,1,1,2,5,2,0
+Public Constructor,com.stalary.pf.message.exception.MyException.MyException,,,1,,,
+Public Constructor,com.stalary.pf.message.exception.MyException.MyException,,,1,,,
+Public Enum Type,com.stalary.pf.message.exception.ResultEnum,0,1,1,3,1,
+Constructor,com.stalary.pf.message.exception.ResultEnum.ResultEnum,,,1,,,
+Public Implicit Method,com.stalary.pf.message.exception.ResultEnum.valueOf,,,0,,,
+Public Implicit Method,com.stalary.pf.message.exception.ResultEnum.values,,,0,,,
+Package,com.stalary.pf.message.repo,0,0,0,,,
+Public Interface,com.stalary.pf.message.repo.MessageRepo,0,0,0,7,2,0
+Abstract Method,com.stalary.pf.message.repo.MessageRepo.findByFromId,,,0,,,
+Abstract Method,com.stalary.pf.message.repo.MessageRepo.findByToIdAndReadState,,,0,,,
+Abstract Method,com.stalary.pf.message.repo.MessageRepo.findByToIdOrderByCreateTimeDesc,,,0,,,
+Abstract Method,com.stalary.pf.message.repo.MessageRepo.read,,,0,,,
+Package,com.stalary.pf.message.service,1,1,6,,,
+Public Class,com.stalary.pf.message.service.MessageService,1,1,6,7,1,42
+Public Method,com.stalary.pf.message.service.MessageService.findByFromId,,,1,,,
+Public Method,com.stalary.pf.message.service.MessageService.findByToId,,,1,,,
+Public Method,com.stalary.pf.message.service.MessageService.findNotRead,,,1,,,
+Public Method,com.stalary.pf.message.service.MessageService.read,,,1,,,
+Public Method,com.stalary.pf.message.service.MessageService.save,,,1,,,
+Public Method,com.stalary.pf.message.service.MessageService.sendCount,,,1,,,
+Package,com.stalary.pf.message.util,2,2,2,,,
+Public Class,com.stalary.pf.message.util.UserUtil,2,2,2,4,1,0
+Public Static Method,com.stalary.pf.message.util.UserUtil.getUserId,,,2,,,
+Package,com.stalary.pf.outside,1,1,2,,,
+Public Class,com.stalary.pf.outside.OutsideApplication,1,1,1,4,1,0
+Public Static Method,com.stalary.pf.outside.OutsideApplication.main,,,1,,,
+Public Class,com.stalary.pf.outside.OutsideApplicationTests,1,1,1,3,1,0
+Public Method,com.stalary.pf.outside.OutsideApplicationTests.contextLoads,,,1,,,
+Package,com.stalary.pf.outside.client,0,0,0,,,
+Public Interface,com.stalary.pf.outside.client.UserClient,0,0,0,6,0,0
+Abstract Method,com.stalary.pf.outside.client.UserClient.uploadAvatar,,,0,,,
+Package,com.stalary.pf.outside.config,1,2,15,,,
+Public Class,com.stalary.pf.outside.config.CacheConfig,1,1,3,11,2,0
+Public Method,com.stalary.pf.outside.config.CacheConfig.errorHandler,,,1,,,
+Anonymous Class,com.stalary.pf.outside.config.CacheConfig.errorHandler.(Anon+AF8-1),1,1,4,3,2,0
+Public Method,com.stalary.pf.outside.config.CacheConfig.errorHandler.(Anon+AF8-1).handleCacheClearError,,,1,,,
+Public Method,com.stalary.pf.outside.config.CacheConfig.errorHandler.(Anon+AF8-1).handleCacheEvictError,,,1,,,
+Public Method,com.stalary.pf.outside.config.CacheConfig.errorHandler.(Anon+AF8-1).handleCacheGetError,,,1,,,
+Public Method,com.stalary.pf.outside.config.CacheConfig.errorHandler.(Anon+AF8-1).handleCachePutError,,,1,,,
+Public Generic Method,com.stalary.pf.outside.config.CacheConfig.redisTemplate,,,1,,,
+Generic Parameter,com.stalary.pf.outside.config.CacheConfig.redisTemplate.T,0,0,0,0,1,0
+Public Method,com.stalary.pf.outside.config.CacheConfig.stringRedisTemplate,,,1,,,
+Public Class,com.stalary.pf.outside.config.FeignConfig,1,1,3,6,1,0
+Public Method,com.stalary.pf.outside.config.FeignConfig.feignLoggerLevel,,,1,,,
+Public Method,com.stalary.pf.outside.config.FeignConfig.feignRetryer,,,1,,,
+Public Method,com.stalary.pf.outside.config.FeignConfig.options,,,1,,,
+Public Class,com.stalary.pf.outside.config.PrefixRedisSerializer,1,2,5,7,1,38
+Public Constructor,com.stalary.pf.outside.config.PrefixRedisSerializer.PrefixRedisSerializer,,,1,,,
+Public Constructor,com.stalary.pf.outside.config.PrefixRedisSerializer.PrefixRedisSerializer,,,1,,,
+Public Method,com.stalary.pf.outside.config.PrefixRedisSerializer.deserialize,,,2,,,
+Public Method,com.stalary.pf.outside.config.PrefixRedisSerializer.serialize,,,1,,,
+Package,com.stalary.pf.outside.controller,1,2,4,,,
+Public Class,com.stalary.pf.outside.controller.OutsideController,1,2,4,18,1,67
+Public Method,com.stalary.pf.outside.controller.OutsideController.code,,,2,,,
+Public Method,com.stalary.pf.outside.controller.OutsideController.sendEmail,,,1,,,
+Public Method,com.stalary.pf.outside.controller.OutsideController.upload,,,1,,,
+Package,com.stalary.pf.outside.data,1,1,10,,,
+Public Class,com.stalary.pf.outside.data.Constant,1,1,1,2,1,0
+Public Static Method,com.stalary.pf.outside.data.Constant.getKey,,,1,,,
+Public Class,com.stalary.pf.outside.data.Email,0,0,0,4,1,0
+Public Generic Class,com.stalary.pf.outside.data.ResponseMessage,1,1,9,3,1,81
+Public Constructor,com.stalary.pf.outside.data.ResponseMessage.ResponseMessage,,,1,,,
+Public Constructor,com.stalary.pf.outside.data.ResponseMessage.ResponseMessage,,,1,,,
+Public Constructor,com.stalary.pf.outside.data.ResponseMessage.ResponseMessage,,,1,,,
+Generic Parameter,com.stalary.pf.outside.data.ResponseMessage.T,0,0,0,0,1,0
+Public Static Method,com.stalary.pf.outside.data.ResponseMessage.enumError,,,1,,,
+Public Static Method,com.stalary.pf.outside.data.ResponseMessage.error,,,1,,,
+Public Static Method,com.stalary.pf.outside.data.ResponseMessage.failedMessage,,,1,,,
+Public Static Method,com.stalary.pf.outside.data.ResponseMessage.failedMessage,,,1,,,
+Public Static Generic Method,com.stalary.pf.outside.data.ResponseMessage.successMessage,,,1,,,
+Public Static Method,com.stalary.pf.outside.data.ResponseMessage.successMessage,,,1,,,
+Generic Parameter,com.stalary.pf.outside.data.ResponseMessage.successMessage.T,0,0,0,0,1,0
+Public Class,com.stalary.pf.outside.data.UploadAvatar,0,0,0,4,1,0
+Package,com.stalary.pf.outside.exception,1,2,5,,,
+Public Class,com.stalary.pf.outside.exception.ExceptionHandle,2,2,2,9,1,0
+Public Method,com.stalary.pf.outside.exception.ExceptionHandle.handle,,,2,,,
+Public Class,com.stalary.pf.outside.exception.MyException,1,1,2,5,2,0
+Public Constructor,com.stalary.pf.outside.exception.MyException.MyException,,,1,,,
+Public Constructor,com.stalary.pf.outside.exception.MyException.MyException,,,1,,,
+Public Enum Type,com.stalary.pf.outside.exception.ResultEnum,0,1,1,3,1,
+Constructor,com.stalary.pf.outside.exception.ResultEnum.ResultEnum,,,1,,,
+Public Implicit Method,com.stalary.pf.outside.exception.ResultEnum.valueOf,,,0,,,
+Public Implicit Method,com.stalary.pf.outside.exception.ResultEnum.values,,,0,,,
+Package,com.stalary.pf.outside.service,2,3,14,,,
+Public Class,com.stalary.pf.outside.service.MailService,2,2,2,14,1,0
+Public Method,com.stalary.pf.outside.service.MailService.sendEmail,,,2,,,
+Anonymous Class,com.stalary.pf.outside.service.MailService.sendEmail.(Anon+AF8-1),1,1,1,3,2,0
+Protected Method,com.stalary.pf.outside.service.MailService.sendEmail.(Anon+AF8-1).getPasswordAuthentication,,,1,,,
+Public Class,com.stalary.pf.outside.service.QiNiuService,2,3,4,12,1,71
+Private Method,com.stalary.pf.outside.service.QiNiuService.getUpToken,,,1,,,
+Public Method,com.stalary.pf.outside.service.QiNiuService.uploadPicture,,,3,,,
+Public Class,com.stalary.pf.outside.service.SmsService,2,3,6,18,1,67
+Private Method,com.stalary.pf.outside.service.SmsService.getAcsClient,,,1,,,
+Public Method,com.stalary.pf.outside.service.SmsService.sendCode,,,2,,,
+Private Method,com.stalary.pf.outside.service.SmsService.sendSms,,,3,,,
+Public Class,com.stalary.pf.outside.service.UserService,1,1,1,10,1,0
+Public Method,com.stalary.pf.outside.service.UserService.uploadAvatar,,,1,,,
+Package,com.stalary.pf.outside.util,2,2,2,,,
+Public Class,com.stalary.pf.outside.util.UserUtil,2,2,2,4,1,0
+Public Static Method,com.stalary.pf.outside.util.UserUtil.getUserId,,,2,,,
+Package,com.stalary.pf.push,1,1,1,,,
+Public Class,com.stalary.pf.push.PushApplication,1,1,1,3,1,0
+Public Static Method,com.stalary.pf.push.PushApplication.main,,,1,,,
+Public Class,com.stalary.pf.push.PushApplicationTests,0,0,0,4,1,0
+Package,com.stalary.pf.push.config,1,2,15,,,
+Public Class,com.stalary.pf.push.config.CacheConfig,1,1,5,16,2,0
+Method,com.stalary.pf.push.config.CacheConfig.container,,,1,,,
+Public Method,com.stalary.pf.push.config.CacheConfig.errorHandler,,,1,,,
+Anonymous Class,com.stalary.pf.push.config.CacheConfig.errorHandler.(Anon+AF8-1),1,1,4,3,2,0
+Public Method,com.stalary.pf.push.config.CacheConfig.errorHandler.(Anon+AF8-1).handleCacheClearError,,,1,,,
+Public Method,com.stalary.pf.push.config.CacheConfig.errorHandler.(Anon+AF8-1).handleCacheEvictError,,,1,,,
+Public Method,com.stalary.pf.push.config.CacheConfig.errorHandler.(Anon+AF8-1).handleCacheGetError,,,1,,,
+Public Method,com.stalary.pf.push.config.CacheConfig.errorHandler.(Anon+AF8-1).handleCachePutError,,,1,,,
+Method,com.stalary.pf.push.config.CacheConfig.listenerAdapter,,,1,,,
+Public Generic Method,com.stalary.pf.push.config.CacheConfig.redisTemplate,,,1,,,
+Generic Parameter,com.stalary.pf.push.config.CacheConfig.redisTemplate.T,0,0,0,0,1,0
+Public Method,com.stalary.pf.push.config.CacheConfig.stringRedisTemplate,,,1,,,
+Public Class,com.stalary.pf.push.config.PrefixRedisSerializer,1,2,5,6,1,38
+Public Constructor,com.stalary.pf.push.config.PrefixRedisSerializer.PrefixRedisSerializer,,,1,,,
+Public Constructor,com.stalary.pf.push.config.PrefixRedisSerializer.PrefixRedisSerializer,,,1,,,
+Public Method,com.stalary.pf.push.config.PrefixRedisSerializer.deserialize,,,2,,,
+Public Method,com.stalary.pf.push.config.PrefixRedisSerializer.serialize,,,1,,,
+Public Class,com.stalary.pf.push.config.WebSocketConfig,1,1,1,3,1,0
+Public Method,com.stalary.pf.push.config.WebSocketConfig.serverEndpointExporter,,,1,,,
+Package,com.stalary.pf.push.controller,1,1,1,,,
+Public Class,com.stalary.pf.push.controller.FacadeController,1,1,1,8,1,0
+Public Method,com.stalary.pf.push.controller.FacadeController.sendMessage,,,1,,,
+Package,com.stalary.pf.push.service,2,3,15,,,
+Public Class,com.stalary.pf.push.service.MessageService,3,3,3,8,1,0
+Static Class,com.stalary.pf.push.service.MessageService.WsMessage,0,0,0,5,1,0
+Public Method,com.stalary.pf.push.service.MessageService.receiveMessage,,,3,,,
+Public Class,com.stalary.pf.push.service.WebSocketService,1,2,12,23,1,76
+Method,com.stalary.pf.push.service.WebSocketService.close,,,2,,,
+Private Method,com.stalary.pf.push.service.WebSocketService.closeBroadcast,,,1,,,
+Public Method,com.stalary.pf.push.service.WebSocketService.messageBroadcast,,,1,,,
+Public Method,com.stalary.pf.push.service.WebSocketService.onClose,,,1,,,
+Public Method,com.stalary.pf.push.service.WebSocketService.onError,,,1,,,
+Public Method,com.stalary.pf.push.service.WebSocketService.onMessage,,,1,,,
+Public Method,com.stalary.pf.push.service.WebSocketService.onOpen,,,2,,,
+Method,com.stalary.pf.push.service.WebSocketService.sendMessage,,,2,,,
+Public Method,com.stalary.pf.push.service.WebSocketService.setRedis,,,1,,,
+Package,com.stalary.pf.recruit,1,1,2,,,
+Public Class,com.stalary.pf.recruit.RecruitApplication,1,1,1,4,1,0
+Public Static Method,com.stalary.pf.recruit.RecruitApplication.main,,,1,,,
+Public Class,com.stalary.pf.recruit.RecruitApplicationTests,1,1,1,3,1,0
+Public Method,com.stalary.pf.recruit.RecruitApplicationTests.contextLoads,,,1,,,
+Package,com.stalary.pf.recruit.client,0,0,0,,,
+Public Interface,com.stalary.pf.recruit.client.ResumeClient,0,0,0,6,0,0
+Abstract Method,com.stalary.pf.recruit.client.ResumeClient.getRate,,,0,,,
+Public Interface,com.stalary.pf.recruit.client.UserClient,0,0,0,7,0,0
+Abstract Method,com.stalary.pf.recruit.client.UserClient.getRecommendCandidate,,,0,,,
+Abstract Method,com.stalary.pf.recruit.client.UserClient.getUser,,,0,,,
+Abstract Method,com.stalary.pf.recruit.client.UserClient.getUserInfo,,,0,,,
+Package,com.stalary.pf.recruit.config,1,2,15,,,
+Public Class,com.stalary.pf.recruit.config.CacheConfig,1,1,3,11,2,0
+Public Method,com.stalary.pf.recruit.config.CacheConfig.errorHandler,,,1,,,
+Anonymous Class,com.stalary.pf.recruit.config.CacheConfig.errorHandler.(Anon+AF8-1),1,1,4,3,2,0
+Public Method,com.stalary.pf.recruit.config.CacheConfig.errorHandler.(Anon+AF8-1).handleCacheClearError,,,1,,,
+Public Method,com.stalary.pf.recruit.config.CacheConfig.errorHandler.(Anon+AF8-1).handleCacheEvictError,,,1,,,
+Public Method,com.stalary.pf.recruit.config.CacheConfig.errorHandler.(Anon+AF8-1).handleCacheGetError,,,1,,,
+Public Method,com.stalary.pf.recruit.config.CacheConfig.errorHandler.(Anon+AF8-1).handleCachePutError,,,1,,,
+Public Generic Method,com.stalary.pf.recruit.config.CacheConfig.redisTemplate,,,1,,,
+Generic Parameter,com.stalary.pf.recruit.config.CacheConfig.redisTemplate.T,0,0,0,0,1,0
+Public Method,com.stalary.pf.recruit.config.CacheConfig.stringRedisTemplate,,,1,,,
+Public Class,com.stalary.pf.recruit.config.FeignConfig,1,1,3,6,1,0
+Public Method,com.stalary.pf.recruit.config.FeignConfig.feignLoggerLevel,,,1,,,
+Public Method,com.stalary.pf.recruit.config.FeignConfig.feignRetryer,,,1,,,
+Public Method,com.stalary.pf.recruit.config.FeignConfig.options,,,1,,,
+Public Class,com.stalary.pf.recruit.config.PrefixRedisSerializer,1,2,5,7,1,38
+Public Constructor,com.stalary.pf.recruit.config.PrefixRedisSerializer.PrefixRedisSerializer,,,1,,,
+Public Constructor,com.stalary.pf.recruit.config.PrefixRedisSerializer.PrefixRedisSerializer,,,1,,,
+Public Method,com.stalary.pf.recruit.config.PrefixRedisSerializer.deserialize,,,2,,,
+Public Method,com.stalary.pf.recruit.config.PrefixRedisSerializer.serialize,,,1,,,
+Package,com.stalary.pf.recruit.controller,1,1,16,,,
+Public Class,com.stalary.pf.recruit.controller.CompanyController,1,1,5,14,1,0
+Public Method,com.stalary.pf.recruit.controller.CompanyController.addCompany,,,1,,,
+Public Method,com.stalary.pf.recruit.controller.CompanyController.allCompany,,,1,,,
+Public Method,com.stalary.pf.recruit.controller.CompanyController.allCompanyName,,,1,,,
+Public Method,com.stalary.pf.recruit.controller.CompanyController.allCompanyNoPage,,,1,,,
+Public Method,com.stalary.pf.recruit.controller.CompanyController.getInfo,,,1,,,
+Public Class,com.stalary.pf.recruit.controller.RecruitController,1,1,11,18,1,0
+Public Method,com.stalary.pf.recruit.controller.RecruitController.add,,,1,,,
+Public Method,com.stalary.pf.recruit.controller.RecruitController.allRecruit,,,1,,,
+Public Method,com.stalary.pf.recruit.controller.RecruitController.allRecruitName,,,1,,,
+Public Method,com.stalary.pf.recruit.controller.RecruitController.delete,,,1,,,
+Public Method,com.stalary.pf.recruit.controller.RecruitController.getHrInfo,,,1,,,
+Public Method,com.stalary.pf.recruit.controller.RecruitController.getInfo,,,1,,,
+Public Method,com.stalary.pf.recruit.controller.RecruitController.getRecruitById,,,1,,,
+Public Method,com.stalary.pf.recruit.controller.RecruitController.postResume,,,1,,,
+Public Method,com.stalary.pf.recruit.controller.RecruitController.recommendCandidate,,,1,,,
+Public Method,com.stalary.pf.recruit.controller.RecruitController.recommendJob,,,1,,,
+Public Method,com.stalary.pf.recruit.controller.RecruitController.recruitList,,,1,,,
+Package,com.stalary.pf.recruit.data,0,0,0,,,
+Package,com.stalary.pf.recruit.data.constant,1,1,1,,,
+Public Class,com.stalary.pf.recruit.data.constant.Constant,1,1,1,2,1,0
+Public Static Method,com.stalary.pf.recruit.data.constant.Constant.getKey,,,1,,,
+Package,com.stalary.pf.recruit.data.dto,1,1,2,,,
+Public Class,com.stalary.pf.recruit.data.dto.CompanyAndJob,0,0,0,5,1,0
+Public Class,com.stalary.pf.recruit.data.dto.GetResumeRate,0,0,0,4,1,0
+Public Static Class,com.stalary.pf.recruit.data.dto.GetResumeRate.GetRate,0,0,0,5,1,0
+Public Class,com.stalary.pf.recruit.data.dto.RecommendUser,0,0,0,5,1,0
+Public Class,com.stalary.pf.recruit.data.dto.RecruitDto,0,0,0,5,1,0
+Public Class,com.stalary.pf.recruit.data.dto.ResumeRate,0,0,0,5,1,0
+Public Class,com.stalary.pf.recruit.data.dto.SendResume,0,0,0,7,1,0
+Public Class,com.stalary.pf.recruit.data.dto.SkillRule,0,0,0,5,1,0
+Public Class,com.stalary.pf.recruit.data.dto.User,1,1,2,5,1,60
+Public Constructor,com.stalary.pf.recruit.data.dto.User.User,,,1,,,
+Public Constructor,com.stalary.pf.recruit.data.dto.User.User,,,1,,,
+Public Class,com.stalary.pf.recruit.data.dto.UserInfo,0,0,0,5,1,0
+Package,com.stalary.pf.recruit.data.dto.vo,0,0,0,,,
+Public Class,com.stalary.pf.recruit.data.dto.vo.HR,0,0,0,6,1,0
+Package,com.stalary.pf.recruit.data.entity,1,1,2,,,
+Public Abstract Class,com.stalary.pf.recruit.data.entity.BaseEntity,0,0,0,11,1,0
+Public Class,com.stalary.pf.recruit.data.entity.CompanyEntity,0,0,0,7,2,0
+Public Class,com.stalary.pf.recruit.data.entity.RecruitEntity,1,1,2,13,2,67
+Public Method,com.stalary.pf.recruit.data.entity.RecruitEntity.deserializeFields,,,1,,,
+Anonymous Class,com.stalary.pf.recruit.data.entity.RecruitEntity.deserializeFields.(Anon+AF8-1),0,0,0,0,2,0
+Public Method,com.stalary.pf.recruit.data.entity.RecruitEntity.serializeFields,,,1,,,
+Package,com.stalary.pf.recruit.data.vo,1,1,8,,,
+Public Class,com.stalary.pf.recruit.data.vo.Candidate,1,1,1,5,1,25
+Public Static Method,com.stalary.pf.recruit.data.vo.Candidate.init,,,1,,,
+Public Class,com.stalary.pf.recruit.data.vo.CompanyAndRecruit,0,0,0,5,1,0
+Public Class,com.stalary.pf.recruit.data.vo.RecommendCandidate,0,0,0,5,1,0
+Public Class,com.stalary.pf.recruit.data.vo.RecommendRecruit,0,0,0,4,1,0
+Public Class,com.stalary.pf.recruit.data.vo.RecruitAndCompany,0,0,0,5,1,0
+Public Class,com.stalary.pf.recruit.data.vo.RecruitAndHrAndCompany,0,0,0,6,1,0
+Public Generic Class,com.stalary.pf.recruit.data.vo.ResponseMessage,1,1,7,2,1,75
+Public Constructor,com.stalary.pf.recruit.data.vo.ResponseMessage.ResponseMessage,,,1,,,
+Public Constructor,com.stalary.pf.recruit.data.vo.ResponseMessage.ResponseMessage,,,1,,,
+Generic Parameter,com.stalary.pf.recruit.data.vo.ResponseMessage.T,0,0,0,0,1,0
+Public Static Method,com.stalary.pf.recruit.data.vo.ResponseMessage.error,,,1,,,
+Public Static Method,com.stalary.pf.recruit.data.vo.ResponseMessage.failedMessage,,,1,,,
+Public Static Method,com.stalary.pf.recruit.data.vo.ResponseMessage.failedMessage,,,1,,,
+Public Static Generic Method,com.stalary.pf.recruit.data.vo.ResponseMessage.successMessage,,,1,,,
+Public Static Method,com.stalary.pf.recruit.data.vo.ResponseMessage.successMessage,,,1,,,
+Generic Parameter,com.stalary.pf.recruit.data.vo.ResponseMessage.successMessage.T,0,0,0,0,1,0
+Package,com.stalary.pf.recruit.exception,1,2,8,,,
+Public Class,com.stalary.pf.recruit.exception.ExceptionHandle,2,2,2,9,1,0
+Public Method,com.stalary.pf.recruit.exception.ExceptionHandle.handle,,,2,,,
+Public Class,com.stalary.pf.recruit.exception.ExceptionThreadFactory,1,1,2,7,1,17
+Public Constructor,com.stalary.pf.recruit.exception.ExceptionThreadFactory.ExceptionThreadFactory,,,1,,,
+Public Method,com.stalary.pf.recruit.exception.ExceptionThreadFactory.newThread,,,1,,,
+Public Class,com.stalary.pf.recruit.exception.ExecutorExceptionHandler,1,1,1,4,1,0
+Public Method,com.stalary.pf.recruit.exception.ExecutorExceptionHandler.uncaughtException,,,1,,,
+Public Class,com.stalary.pf.recruit.exception.MyException,1,1,2,5,2,0
+Public Constructor,com.stalary.pf.recruit.exception.MyException.MyException,,,1,,,
+Public Constructor,com.stalary.pf.recruit.exception.MyException.MyException,,,1,,,
+Public Enum Type,com.stalary.pf.recruit.exception.ResultEnum,0,1,1,3,1,
+Constructor,com.stalary.pf.recruit.exception.ResultEnum.ResultEnum,,,1,,,
+Public Implicit Method,com.stalary.pf.recruit.exception.ResultEnum.valueOf,,,0,,,
+Public Implicit Method,com.stalary.pf.recruit.exception.ResultEnum.values,,,0,,,
+Package,com.stalary.pf.recruit.repo,0,0,0,,,
+Public Generic Interface,com.stalary.pf.recruit.repo.BaseRepo,0,0,0,1,2,0
+Generic Parameter,com.stalary.pf.recruit.repo.BaseRepo.ID,0,0,0,1,0,0
+Generic Parameter,com.stalary.pf.recruit.repo.BaseRepo.T,0,0,0,0,1,0
+Public Interface,com.stalary.pf.recruit.repo.CompanyRepo,0,0,0,3,3,0
+Abstract Method,com.stalary.pf.recruit.repo.CompanyRepo.findByNameIsLike,,,0,,,
+Public Interface,com.stalary.pf.recruit.repo.RecruitRepo,0,0,0,4,3,0
+Abstract Method,com.stalary.pf.recruit.repo.RecruitRepo.findByCompanyId,,,0,,,
+Abstract Method,com.stalary.pf.recruit.repo.RecruitRepo.findByHrId,,,0,,,
+Abstract Method,com.stalary.pf.recruit.repo.RecruitRepo.findByTitleIn,,,0,,,
+Abstract Method,com.stalary.pf.recruit.repo.RecruitRepo.findByTitleIsLike,,,0,,,
+Package,com.stalary.pf.recruit.service,2,4,70,,,
+Public Class,com.stalary.pf.recruit.service.RecruitService,2,4,63,51,1,82
+Public Method,com.stalary.pf.recruit.service.RecruitService.addCompany,,,2,,,
+Lambda Method,com.stalary.pf.recruit.service.RecruitService.addCompany.(lambda+AF8-expr+AF8-1),,,1,,,
+Private Method,com.stalary.pf.recruit.service.RecruitService.cacheCompany,,,3,,,
+Lambda Method,com.stalary.pf.recruit.service.RecruitService.cacheCompany.(lambda+AF8-expr+AF8-1),,,1,,,
+Private Method,com.stalary.pf.recruit.service.RecruitService.cacheRecruit,,,3,,,
+Lambda Method,com.stalary.pf.recruit.service.RecruitService.cacheRecruit.(lambda+AF8-expr+AF8-1),,,1,,,
+Public Method,com.stalary.pf.recruit.service.RecruitService.deleteById,,,1,,,
+Private Method,com.stalary.pf.recruit.service.RecruitService.findRecruitByTitleIn,,,4,,,
+Lambda Method,com.stalary.pf.recruit.service.RecruitService.findRecruitByTitleIn.(lambda+AF8-expr+AF8-1),,,1,,,
+Lambda Method,com.stalary.pf.recruit.service.RecruitService.findRecruitByTitleIn.(lambda+AF8-expr+AF8-2),,,1,,,
+Public Method,com.stalary.pf.recruit.service.RecruitService.getAllCompany,,,7,,,
+Lambda Method,com.stalary.pf.recruit.service.RecruitService.getAllCompany.(lambda+AF8-expr+AF8-1),,,1,,,
+Lambda Method,com.stalary.pf.recruit.service.RecruitService.getAllCompany.(lambda+AF8-expr+AF8-2),,,1,,,
+Lambda Method,com.stalary.pf.recruit.service.RecruitService.getAllCompany.(lambda+AF8-expr+AF8-3),,,1,,,
+Public Method,com.stalary.pf.recruit.service.RecruitService.getAllCompanyByPage,,,2,,,
+Public Method,com.stalary.pf.recruit.service.RecruitService.getAllCompanyName,,,1,,,
+Public Method,com.stalary.pf.recruit.service.RecruitService.getAllRecruit,,,3,,,
+Private Method,com.stalary.pf.recruit.service.RecruitService.getAllRecruit,,,7,,,
+Lambda Method,com.stalary.pf.recruit.service.RecruitService.getAllRecruit.(lambda+AF8-expr+AF8-1),,,1,,,
+Lambda Method,com.stalary.pf.recruit.service.RecruitService.getAllRecruit.(lambda+AF8-expr+AF8-1),,,1,,,
+Lambda Method,com.stalary.pf.recruit.service.RecruitService.getAllRecruit.(lambda+AF8-expr+AF8-2),,,1,,,
+Lambda Method,com.stalary.pf.recruit.service.RecruitService.getAllRecruit.(lambda+AF8-expr+AF8-3),,,1,,,
+Public Method,com.stalary.pf.recruit.service.RecruitService.getAllRecruitName,,,1,,,
+Private Method,com.stalary.pf.recruit.service.RecruitService.getCompanyById,,,2,,,
+Public Method,com.stalary.pf.recruit.service.RecruitService.getCompanyInfo,,,1,,,
+Public Method,com.stalary.pf.recruit.service.RecruitService.getRecommendCandidate,,,9,,,
+Lambda Method,com.stalary.pf.recruit.service.RecruitService.getRecommendCandidate.(lambda+AF8-expr+AF8-1),,,2,,,
+Lambda Method,com.stalary.pf.recruit.service.RecruitService.getRecommendCandidate.(lambda+AF8-expr+AF8-2),,,1,,,
+Lambda Method,com.stalary.pf.recruit.service.RecruitService.getRecommendCandidate.(lambda+AF8-expr+AF8-3),,,3,,,
+Lambda Method,com.stalary.pf.recruit.service.RecruitService.getRecommendCandidate.(lambda+AF8-expr+AF8-3).(lambda+AF8-expr+AF8-4),,,2,,,
+Lambda Method,com.stalary.pf.recruit.service.RecruitService.getRecommendCandidate.(lambda+AF8-expr+AF8-5),,,8,,,
+Lambda Method,com.stalary.pf.recruit.service.RecruitService.getRecommendCandidate.(lambda+AF8-expr+AF8-5).(lambda+AF8-expr+AF8-6),,,1,,,
+Lambda Method,com.stalary.pf.recruit.service.RecruitService.getRecommendCandidate.(lambda+AF8-expr+AF8-5).(lambda+AF8-expr+AF8-7),,,4,,,
+Lambda Method,com.stalary.pf.recruit.service.RecruitService.getRecommendCandidate.(lambda+AF8-expr+AF8-5).(lambda+AF8-expr+AF8-7).(lambda+AF8-expr+AF8-8),,,1,,,
+Public Method,com.stalary.pf.recruit.service.RecruitService.getRecommendJob,,,5,,,
+Lambda Method,com.stalary.pf.recruit.service.RecruitService.getRecommendJob.(lambda+AF8-expr+AF8-1),,,3,,,
+Public Method,com.stalary.pf.recruit.service.RecruitService.getRecruitById,,,3,,,
+Public Method,com.stalary.pf.recruit.service.RecruitService.getRecruitByUserId,,,4,,,
+Lambda Method,com.stalary.pf.recruit.service.RecruitService.getRecruitByUserId.(lambda+AF8-expr+AF8-1),,,1,,,
+Lambda Method,com.stalary.pf.recruit.service.RecruitService.getRecruitByUserId.(lambda+AF8-expr+AF8-2),,,1,,,
+Public Method,com.stalary.pf.recruit.service.RecruitService.getRecruitInfo,,,1,,,
+Public Method,com.stalary.pf.recruit.service.RecruitService.postResume,,,1,,,
+Public Method,com.stalary.pf.recruit.service.RecruitService.saveRecruit,,,2,,,
+Lambda Method,com.stalary.pf.recruit.service.RecruitService.saveRecruit.(lambda+AF8-expr+AF8-1),,,1,,,
+Private Method,com.stalary.pf.recruit.service.RecruitService.str2List,,,1,,,
+Package,com.stalary.pf.recruit.util,2,2,3,,,
+Public Class,com.stalary.pf.recruit.util.RecruitUtil,2,2,3,5,1,0
+Public Static Method,com.stalary.pf.recruit.util.RecruitUtil.getStartAndEnd,,,1,,,
+Public Static Method,com.stalary.pf.recruit.util.RecruitUtil.getUserId,,,2,,,
+Package,com.stalary.pf.resume,1,1,2,,,
+Public Class,com.stalary.pf.resume.ResumeApplication,1,1,1,4,1,0
+Public Static Method,com.stalary.pf.resume.ResumeApplication.main,,,1,,,
+Public Class,com.stalary.pf.resume.ResumeApplicationTests,1,1,1,3,1,0
+Public Method,com.stalary.pf.resume.ResumeApplicationTests.contextLoads,,,1,,,
+Package,com.stalary.pf.resume.annotation,0,0,0,,,
+Public Annotation,com.stalary.pf.resume.annotation.AutoValue,0,0,0,2,0,0
+Public Annotation,com.stalary.pf.resume.annotation.CreateTime,0,0,0,2,0,0
+Public Annotation,com.stalary.pf.resume.annotation.UpdateTime,0,0,0,2,0,0
+Package,com.stalary.pf.resume.client,0,0,0,,,
+Public Interface,com.stalary.pf.resume.client.RecruitClient,0,0,0,6,0,0
+Abstract Method,com.stalary.pf.resume.client.RecruitClient.getRecruit,,,0,,,
+Public Interface,com.stalary.pf.resume.client.UserClient,0,0,0,6,0,0
+Abstract Method,com.stalary.pf.resume.client.UserClient.getUserInfo,,,0,,,
+Package,com.stalary.pf.resume.config,1,4,20,,,
+Public Class,com.stalary.pf.resume.config.CacheConfig,1,1,3,11,2,0
+Public Method,com.stalary.pf.resume.config.CacheConfig.errorHandler,,,1,,,
+Anonymous Class,com.stalary.pf.resume.config.CacheConfig.errorHandler.(Anon+AF8-1),1,1,4,3,2,0
+Public Method,com.stalary.pf.resume.config.CacheConfig.errorHandler.(Anon+AF8-1).handleCacheClearError,,,1,,,
+Public Method,com.stalary.pf.resume.config.CacheConfig.errorHandler.(Anon+AF8-1).handleCacheEvictError,,,1,,,
+Public Method,com.stalary.pf.resume.config.CacheConfig.errorHandler.(Anon+AF8-1).handleCacheGetError,,,1,,,
+Public Method,com.stalary.pf.resume.config.CacheConfig.errorHandler.(Anon+AF8-1).handleCachePutError,,,1,,,
+Public Generic Method,com.stalary.pf.resume.config.CacheConfig.redisTemplate,,,1,,,
+Generic Parameter,com.stalary.pf.resume.config.CacheConfig.redisTemplate.T,0,0,0,0,1,0
+Public Method,com.stalary.pf.resume.config.CacheConfig.stringRedisTemplate,,,1,,,
+Public Class,com.stalary.pf.resume.config.FeignConfig,1,1,3,6,1,0
+Public Method,com.stalary.pf.resume.config.FeignConfig.feignLoggerLevel,,,1,,,
+Public Method,com.stalary.pf.resume.config.FeignConfig.feignRetryer,,,1,,,
+Public Method,com.stalary.pf.resume.config.FeignConfig.options,,,1,,,
+Public Class,com.stalary.pf.resume.config.MongoEventListener,1,1,5,13,2,100
+Public Method,com.stalary.pf.resume.config.MongoEventListener.onBeforeConvert,,,5,,,
+Lambda Method,com.stalary.pf.resume.config.MongoEventListener.onBeforeConvert.(lambda+AF8-expr+AF8-1),,,4,,,
+Public Class,com.stalary.pf.resume.config.PrefixRedisSerializer,1,2,5,7,1,38
+Public Constructor,com.stalary.pf.resume.config.PrefixRedisSerializer.PrefixRedisSerializer,,,1,,,
+Public Constructor,com.stalary.pf.resume.config.PrefixRedisSerializer.PrefixRedisSerializer,,,1,,,
+Public Method,com.stalary.pf.resume.config.PrefixRedisSerializer.deserialize,,,2,,,
+Public Method,com.stalary.pf.resume.config.PrefixRedisSerializer.serialize,,,1,,,
+Package,com.stalary.pf.resume.controller,1,1,5,,,
+Public Class,com.stalary.pf.resume.controller.ResumeController,1,1,5,14,1,0
+Public Method,com.stalary.pf.resume.controller.ResumeController.getRate,,,1,,,
+Public Method,com.stalary.pf.resume.controller.ResumeController.getRateBatch,,,1,,,
+Public Method,com.stalary.pf.resume.controller.ResumeController.getResumeByUserId,,,1,,,
+Public Method,com.stalary.pf.resume.controller.ResumeController.handleResume,,,1,,,
+Public Method,com.stalary.pf.resume.controller.ResumeController.save,,,1,,,
+Package,com.stalary.pf.resume.data,0,0,0,,,
+Package,com.stalary.pf.resume.data.constant,1,1,1,,,
+Public Class,com.stalary.pf.resume.data.constant.Constant,1,1,1,2,1,0
+Public Static Method,com.stalary.pf.resume.data.constant.Constant.getKey,,,1,,,
+Public Class,com.stalary.pf.resume.data.constant.RedisKeys,0,0,0,1,1,0
+Package,com.stalary.pf.resume.data.dto,0,0,0,,,
+Public Class,com.stalary.pf.resume.data.dto.GetResumeRate,0,0,0,4,1,0
+Public Static Class,com.stalary.pf.resume.data.dto.GetResumeRate.GetRate,0,0,0,5,1,0
+Public Class,com.stalary.pf.resume.data.dto.ReceiveResume,0,0,0,8,1,0
+Public Class,com.stalary.pf.resume.data.dto.Recruit,0,0,0,5,1,0
+Public Class,com.stalary.pf.resume.data.dto.ResumeRate,0,0,0,5,1,0
+Public Class,com.stalary.pf.resume.data.dto.SendResume,0,0,0,7,1,0
+Public Class,com.stalary.pf.resume.data.dto.SkillRule,0,0,0,5,1,0
+Public Class,com.stalary.pf.resume.data.dto.UserInfo,0,0,0,6,1,0
+Package,com.stalary.pf.resume.data.entity,0,0,0,,,
+Public Abstract Class,com.stalary.pf.resume.data.entity.BaseEntity,0,0,0,8,1,0
+Public Class,com.stalary.pf.resume.data.entity.Resume,0,0,0,8,2,0
+Public Class,com.stalary.pf.resume.data.entity.SeqInfo,0,0,0,5,1,0
+Public Class,com.stalary.pf.resume.data.entity.Skill,0,0,0,5,2,0
+Package,com.stalary.pf.resume.data.vo,1,1,8,,,
+Public Generic Class,com.stalary.pf.resume.data.vo.ResponseMessage,1,1,8,2,1,78
+Public Constructor,com.stalary.pf.resume.data.vo.ResponseMessage.ResponseMessage,,,1,,,
+Public Constructor,com.stalary.pf.resume.data.vo.ResponseMessage.ResponseMessage,,,1,,,
+Public Constructor,com.stalary.pf.resume.data.vo.ResponseMessage.ResponseMessage,,,1,,,
+Generic Parameter,com.stalary.pf.resume.data.vo.ResponseMessage.T,0,0,0,0,1,0
+Public Static Method,com.stalary.pf.resume.data.vo.ResponseMessage.error,,,1,,,
+Public Static Method,com.stalary.pf.resume.data.vo.ResponseMessage.failedMessage,,,1,,,
+Public Static Method,com.stalary.pf.resume.data.vo.ResponseMessage.failedMessage,,,1,,,
+Public Static Generic Method,com.stalary.pf.resume.data.vo.ResponseMessage.successMessage,,,1,,,
+Public Static Method,com.stalary.pf.resume.data.vo.ResponseMessage.successMessage,,,1,,,
+Generic Parameter,com.stalary.pf.resume.data.vo.ResponseMessage.successMessage.T,0,0,0,0,1,0
+Package,com.stalary.pf.resume.exception,1,2,5,,,
+Public Class,com.stalary.pf.resume.exception.ExceptionHandle,2,2,2,9,1,0
+Public Method,com.stalary.pf.resume.exception.ExceptionHandle.handle,,,2,,,
+Public Class,com.stalary.pf.resume.exception.MyException,1,1,2,5,2,0
+Public Constructor,com.stalary.pf.resume.exception.MyException.MyException,,,1,,,
+Public Constructor,com.stalary.pf.resume.exception.MyException.MyException,,,1,,,
+Public Enum Type,com.stalary.pf.resume.exception.ResultEnum,0,1,1,3,1,
+Constructor,com.stalary.pf.resume.exception.ResultEnum.ResultEnum,,,1,,,
+Public Implicit Method,com.stalary.pf.resume.exception.ResultEnum.valueOf,,,0,,,
+Public Implicit Method,com.stalary.pf.resume.exception.ResultEnum.values,,,0,,,
+Package,com.stalary.pf.resume.repo,0,0,0,,,
+Public Generic Interface,com.stalary.pf.resume.repo.BaseRepo,0,0,0,1,2,0
+Generic Parameter,com.stalary.pf.resume.repo.BaseRepo.ID,0,0,0,1,0,0
+Generic Parameter,com.stalary.pf.resume.repo.BaseRepo.T,0,0,0,0,1,0
+Public Interface,com.stalary.pf.resume.repo.ResumeRepo,0,0,0,3,3,0
+Abstract Method,com.stalary.pf.resume.repo.ResumeRepo.findByUserId,,,0,,,
+Abstract Method,com.stalary.pf.resume.repo.ResumeRepo.findByUserIdIn,,,0,,,
+Public Interface,com.stalary.pf.resume.repo.SkillRepo,0,0,0,1,3,0
+Package,com.stalary.pf.resume.service,1,2,19,,,
+Public Abstract Generic Class,com.stalary.pf.resume.service.BaseService,1,1,6,2,1,0
+Constructor,com.stalary.pf.resume.service.BaseService.BaseService,,,1,,,
+Generic Parameter,com.stalary.pf.resume.service.BaseService.R,0,0,0,1,1,0
+Generic Parameter,com.stalary.pf.resume.service.BaseService.T,0,0,0,0,1,0
+Public Method,com.stalary.pf.resume.service.BaseService.delete,,,1,,,
+Public Method,com.stalary.pf.resume.service.BaseService.deleteById,,,1,,,
+Public Method,com.stalary.pf.resume.service.BaseService.findOne,,,1,,,
+Public Method,com.stalary.pf.resume.service.BaseService.save,,,1,,,
+Public Method,com.stalary.pf.resume.service.BaseService.save,,,1,,,
+Public Class,com.stalary.pf.resume.service.ResumeService,1,2,13,31,2,88
+Public Constructor,com.stalary.pf.resume.service.ResumeService.ResumeService,,,1,,,
+Public Method,com.stalary.pf.resume.service.ResumeService.batchCalculate,,,2,,,
+Lambda Method,com.stalary.pf.resume.service.ResumeService.batchCalculate.(lambda+AF8-expr+AF8-1),,,1,,,
+Public Method,com.stalary.pf.resume.service.ResumeService.calculate,,,1,,,
+Private Method,com.stalary.pf.resume.service.ResumeService.calculate,,,2,,,
+Public Method,com.stalary.pf.resume.service.ResumeService.findByUserId,,,1,,,
+Private Method,com.stalary.pf.resume.service.ResumeService.getResumeMap,,,2,,,
+Lambda Method,com.stalary.pf.resume.service.ResumeService.getResumeMap.(lambda+AF8-expr+AF8-1),,,1,,,
+Public Method,com.stalary.pf.resume.service.ResumeService.handleResume,,,1,,,
+Public Method,com.stalary.pf.resume.service.ResumeService.saveResume,,,3,,,
+Lambda Method,com.stalary.pf.resume.service.ResumeService.saveResume.(lambda+AF8-expr+AF8-1),,,2,,,
+Package,com.stalary.pf.resume.util,2,2,3,,,
+Public Class,com.stalary.pf.resume.util.IdUtil,2,2,3,8,1,0
+Public Static Method,com.stalary.pf.resume.util.IdUtil.getNextId,,,2,,,
+Public Static Method,com.stalary.pf.resume.util.IdUtil.getNextIdAndUpdate,,,1,,,
+Package,com.stalary.pf.user,1,1,2,,,
+Public Class,com.stalary.pf.user.BaseTest,1,1,1,6,1,50
+Public Method,com.stalary.pf.user.BaseTest.testEs,,,1,,,
+Public Class,com.stalary.pf.user.UserApplication,1,1,1,4,1,0
+Public Static Method,com.stalary.pf.user.UserApplication.main,,,1,,,
+Package,com.stalary.pf.user.annotation,0,0,0,,,
+Public Annotation,com.stalary.pf.user.annotation.LoginRequired,0,0,0,2,0,0
+Package,com.stalary.pf.user.client,0,0,0,,,
+Public Interface,com.stalary.pf.user.client.MessageClient,0,0,0,5,0,0
+Abstract Method,com.stalary.pf.user.client.MessageClient.sendCount,,,0,,,
+Public Interface,com.stalary.pf.user.client.RecruitClient,0,0,0,6,0,0
+Abstract Method,com.stalary.pf.user.client.RecruitClient.getRecruitList,,,0,,,
+Public Interface,com.stalary.pf.user.client.UserCenterClient,0,0,0,10,0,0
+Abstract Method,com.stalary.pf.user.client.UserCenterClient.getProjectInfo,,,0,,,
+Abstract Method,com.stalary.pf.user.client.UserCenterClient.getUserInfo,,,0,,,
+Abstract Method,com.stalary.pf.user.client.UserCenterClient.getUserInfoById,,,0,,,
+Abstract Method,com.stalary.pf.user.client.UserCenterClient.login,,,0,,,
+Abstract Method,com.stalary.pf.user.client.UserCenterClient.register,,,0,,,
+Abstract Method,com.stalary.pf.user.client.UserCenterClient.updateInfo,,,0,,,
+Abstract Method,com.stalary.pf.user.client.UserCenterClient.updatePassword,,,0,,,
+Package,com.stalary.pf.user.config,1,4,22,,,
+Public Class,com.stalary.pf.user.config.CacheConfig,1,1,3,11,2,0
+Public Method,com.stalary.pf.user.config.CacheConfig.errorHandler,,,1,,,
+Anonymous Class,com.stalary.pf.user.config.CacheConfig.errorHandler.(Anon+AF8-1),1,1,4,3,2,0
+Public Method,com.stalary.pf.user.config.CacheConfig.errorHandler.(Anon+AF8-1).handleCacheClearError,,,1,,,
+Public Method,com.stalary.pf.user.config.CacheConfig.errorHandler.(Anon+AF8-1).handleCacheEvictError,,,1,,,
+Public Method,com.stalary.pf.user.config.CacheConfig.errorHandler.(Anon+AF8-1).handleCacheGetError,,,1,,,
+Public Method,com.stalary.pf.user.config.CacheConfig.errorHandler.(Anon+AF8-1).handleCachePutError,,,1,,,
+Public Generic Method,com.stalary.pf.user.config.CacheConfig.redisTemplate,,,1,,,
+Generic Parameter,com.stalary.pf.user.config.CacheConfig.redisTemplate.T,0,0,0,0,1,0
+Public Method,com.stalary.pf.user.config.CacheConfig.stringRedisTemplate,,,1,,,
+Public Class,com.stalary.pf.user.config.FeignConfig,1,1,8,12,1,0
+Public Method,com.stalary.pf.user.config.FeignConfig.feignLoggerLevel,,,1,,,
+Public Method,com.stalary.pf.user.config.FeignConfig.feignRetryer,,,1,,,
+Public Method,com.stalary.pf.user.config.FeignConfig.headerInterceptor,,,5,,,
+Lambda Method,com.stalary.pf.user.config.FeignConfig.headerInterceptor.(lambda+AF8-expr+AF8-1),,,4,,,
+Public Method,com.stalary.pf.user.config.FeignConfig.options,,,1,,,
+Public Class,com.stalary.pf.user.config.PrefixRedisSerializer,1,2,5,7,1,38
+Public Constructor,com.stalary.pf.user.config.PrefixRedisSerializer.PrefixRedisSerializer,,,1,,,
+Public Constructor,com.stalary.pf.user.config.PrefixRedisSerializer.PrefixRedisSerializer,,,1,,,
+Public Method,com.stalary.pf.user.config.PrefixRedisSerializer.deserialize,,,2,,,
+Public Method,com.stalary.pf.user.config.PrefixRedisSerializer.serialize,,,1,,,
+Public Class,com.stalary.pf.user.config.WebConfig,1,1,2,5,1,0
+Public Method,com.stalary.pf.user.config.WebConfig.addInterceptors,,,1,,,
+Public Method,com.stalary.pf.user.config.WebConfig.loginInterceptor,,,1,,,
+Package,com.stalary.pf.user.controller,1,2,20,,,
+Public Class,com.stalary.pf.user.controller.UserController,1,2,20,26,1,67
+Public Method,com.stalary.pf.user.controller.UserController.forgetPassword,,,1,,,
+Public Method,com.stalary.pf.user.controller.UserController.getEmail,,,1,,,
+Public Method,com.stalary.pf.user.controller.UserController.getInfo,,,1,,,
+Public Method,com.stalary.pf.user.controller.UserController.getInfoByUserId,,,1,,,
+Public Method,com.stalary.pf.user.controller.UserController.getReceiveList,,,1,,,
+Public Method,com.stalary.pf.user.controller.UserController.getRecommendUser,,,1,,,
+Anonymous Class,com.stalary.pf.user.controller.UserController.getRecommendUser.(Anon+AF8-1),0,0,0,0,2,0
+Public Method,com.stalary.pf.user.controller.UserController.getSendList,,,1,,,
+Public Method,com.stalary.pf.user.controller.UserController.getUserById,,,1,,,
+Public Method,com.stalary.pf.user.controller.UserController.hrRegister,,,1,,,
+Public Method,com.stalary.pf.user.controller.UserController.login,,,2,,,
+Public Method,com.stalary.pf.user.controller.UserController.logout,,,1,,,
+Public Method,com.stalary.pf.user.controller.UserController.register,,,1,,,
+Public Method,com.stalary.pf.user.controller.UserController.token,,,1,,,
+Public Method,com.stalary.pf.user.controller.UserController.updateEmail,,,1,,,
+Public Method,com.stalary.pf.user.controller.UserController.updateInfo,,,1,,,
+Public Method,com.stalary.pf.user.controller.UserController.updatePassword,,,1,,,
+Public Method,com.stalary.pf.user.controller.UserController.updatePhone,,,1,,,
+Public Method,com.stalary.pf.user.controller.UserController.uploadAvatar,,,2,,,
+Package,com.stalary.pf.user.data,0,0,0,,,
+Package,com.stalary.pf.user.data.constant,1,1,1,,,
+Public Class,com.stalary.pf.user.data.constant.Constant,1,1,1,2,1,0
+Public Static Method,com.stalary.pf.user.data.constant.Constant.getKey,,,1,,,
+Public Class,com.stalary.pf.user.data.constant.RedisKeys,0,0,0,1,1,0
+Package,com.stalary.pf.user.data.dto,1,1,3,,,
+Public Class,com.stalary.pf.user.data.dto.Applicant,0,0,0,4,1,0
+Public Class,com.stalary.pf.user.data.dto.CompanyAndJob,0,0,0,5,1,0
+Public Class,com.stalary.pf.user.data.dto.HR,0,0,0,6,1,0
+Public Class,com.stalary.pf.user.data.dto.ProjectInfo,0,0,0,5,1,0
+Public Class,com.stalary.pf.user.data.dto.RecommendUser,0,0,0,5,1,0
+Public Class,com.stalary.pf.user.data.dto.Recruit,0,0,0,5,1,0
+Public Class,com.stalary.pf.user.data.dto.SkillRule,0,0,0,5,1,0
+Public Class,com.stalary.pf.user.data.dto.UploadAvatar,0,0,0,5,1,0
+Public Class,com.stalary.pf.user.data.dto.User,1,1,3,6,1,53
+Public Constructor,com.stalary.pf.user.data.dto.User.User,,,1,,,
+Public Constructor,com.stalary.pf.user.data.dto.User.User,,,1,,,
+Public Constructor,com.stalary.pf.user.data.dto.User.User,,,1,,,
+Package,com.stalary.pf.user.data.entity,1,1,3,,,
+Public Class,com.stalary.pf.user.data.entity.UserEs,1,1,3,6,1,33
+Public Constructor,com.stalary.pf.user.data.entity.UserEs.UserEs,,,1,,,
+Public Constructor,com.stalary.pf.user.data.entity.UserEs.UserEs,,,1,,,
+Public Constructor,com.stalary.pf.user.data.entity.UserEs.UserEs,,,1,,,
+Public Class,com.stalary.pf.user.data.entity.UserInfoEntity,0,0,0,15,1,0
+Package,com.stalary.pf.user.data.vo,1,1,8,,,
+Public Class,com.stalary.pf.user.data.vo.LoginVo,0,0,0,6,1,0
+Public Class,com.stalary.pf.user.data.vo.ReceiveInfo,0,0,0,5,1,0
+Public Class,com.stalary.pf.user.data.vo.ReceiveResume,0,0,0,8,1,0
+Public Generic Class,com.stalary.pf.user.data.vo.ResponseMessage,1,1,8,2,1,78
+Public Constructor,com.stalary.pf.user.data.vo.ResponseMessage.ResponseMessage,,,1,,,
+Public Constructor,com.stalary.pf.user.data.vo.ResponseMessage.ResponseMessage,,,1,,,
+Public Constructor,com.stalary.pf.user.data.vo.ResponseMessage.ResponseMessage,,,1,,,
+Generic Parameter,com.stalary.pf.user.data.vo.ResponseMessage.T,0,0,0,0,1,0
+Public Static Method,com.stalary.pf.user.data.vo.ResponseMessage.error,,,1,,,
+Public Static Method,com.stalary.pf.user.data.vo.ResponseMessage.failedMessage,,,1,,,
+Public Static Method,com.stalary.pf.user.data.vo.ResponseMessage.failedMessage,,,1,,,
+Public Static Generic Method,com.stalary.pf.user.data.vo.ResponseMessage.successMessage,,,1,,,
+Public Static Method,com.stalary.pf.user.data.vo.ResponseMessage.successMessage,,,1,,,
+Generic Parameter,com.stalary.pf.user.data.vo.ResponseMessage.successMessage.T,0,0,0,0,1,0
+Public Class,com.stalary.pf.user.data.vo.SendInfo,0,0,0,4,1,0
+Public Class,com.stalary.pf.user.data.vo.SendResume,0,0,0,7,1,0
+Package,com.stalary.pf.user.exception,1,2,5,,,
+Public Class,com.stalary.pf.user.exception.ExceptionHandle,2,2,2,9,1,0
+Public Method,com.stalary.pf.user.exception.ExceptionHandle.handle,,,2,,,
+Public Class,com.stalary.pf.user.exception.MyException,1,1,2,5,2,0
+Public Constructor,com.stalary.pf.user.exception.MyException.MyException,,,1,,,
+Public Constructor,com.stalary.pf.user.exception.MyException.MyException,,,1,,,
+Public Enum Type,com.stalary.pf.user.exception.ResultEnum,0,1,1,3,1,
+Constructor,com.stalary.pf.user.exception.ResultEnum.ResultEnum,,,1,,,
+Public Implicit Method,com.stalary.pf.user.exception.ResultEnum.valueOf,,,0,,,
+Public Implicit Method,com.stalary.pf.user.exception.ResultEnum.values,,,0,,,
+Package,com.stalary.pf.user.holder,1,1,6,,,
+Public Class,com.stalary.pf.user.holder.IpHolder,1,1,3,2,1,0
+Public Static Method,com.stalary.pf.user.holder.IpHolder.get,,,1,,,
+Public Static Method,com.stalary.pf.user.holder.IpHolder.remove,,,1,,,
+Public Static Method,com.stalary.pf.user.holder.IpHolder.set,,,1,,,
+Public Class,com.stalary.pf.user.holder.UserHolder,1,1,3,2,1,0
+Public Static Method,com.stalary.pf.user.holder.UserHolder.get,,,1,,,
+Public Static Method,com.stalary.pf.user.holder.UserHolder.remove,,,1,,,
+Public Static Method,com.stalary.pf.user.holder.UserHolder.set,,,1,,,
+Package,com.stalary.pf.user.interceptor,2,5,11,,,
+Public Class,com.stalary.pf.user.interceptor.LoginInterceptor,2,5,11,21,2,70
+Public Method,com.stalary.pf.user.interceptor.LoginInterceptor.afterCompletion,,,1,,,
+Private Method,com.stalary.pf.user.interceptor.LoginInterceptor.getAuthHeader,,,1,,,
+Private Method,com.stalary.pf.user.interceptor.LoginInterceptor.getToken,,,3,,,
+Private Method,com.stalary.pf.user.interceptor.LoginInterceptor.isAnnotationPresent,,,1,,,
+Public Method,com.stalary.pf.user.interceptor.LoginInterceptor.preHandle,,,5,,,
+Package,com.stalary.pf.user.repo,0,0,0,,,
+Public Interface,com.stalary.pf.user.repo.UserEsRepo,0,0,0,3,2,0
+Abstract Method,com.stalary.pf.user.repo.UserEsRepo.findByIntentionCompanyOrIntentionJob,,,0,,,
+Public Interface,com.stalary.pf.user.repo.UserInfoRepo,0,0,0,5,2,0
+Abstract Method,com.stalary.pf.user.repo.UserInfoRepo.findByIntentionCompanyContainsOrIntentionJobContains,,,0,,,
+Abstract Method,com.stalary.pf.user.repo.UserInfoRepo.findByUserId,,,0,,,
+Package,com.stalary.pf.user.service,2,10,33,,,
+Public Class,com.stalary.pf.user.service.ClientService,5,10,20,22,1,31
+Public Method,com.stalary.pf.user.service.ClientService.genProjectInfo,,,3,,,
+Public Method,com.stalary.pf.user.service.ClientService.getUser,,,4,,,
+Public Method,com.stalary.pf.user.service.ClientService.getUser,,,3,,,
+Public Method,com.stalary.pf.user.service.ClientService.postUser,,,10,,,
+Public Class,com.stalary.pf.user.service.UserInfoService,1,2,12,25,1,72
+Public Method,com.stalary.pf.user.service.UserInfoService.getInfo,,,1,,,
+Public Method,com.stalary.pf.user.service.UserInfoService.getInfoByUserId,,,1,,,
+Public Method,com.stalary.pf.user.service.UserInfoService.getReceiveList,,,2,,,
+Lambda Method,com.stalary.pf.user.service.UserInfoService.getReceiveList.(lambda+AF8-expr+AF8-1),,,2,,,
+Lambda Method,com.stalary.pf.user.service.UserInfoService.getReceiveList.(lambda+AF8-expr+AF8-1).(lambda+AF8-expr+AF8-2),,,1,,,
+Public Method,com.stalary.pf.user.service.UserInfoService.getRecommendUser,,,2,,,
+Lambda Method,com.stalary.pf.user.service.UserInfoService.getRecommendUser.(lambda+AF8-expr+AF8-1),,,1,,,
+Public Method,com.stalary.pf.user.service.UserInfoService.getSendList,,,2,,,
+Lambda Method,com.stalary.pf.user.service.UserInfoService.getSendList.(lambda+AF8-expr+AF8-1),,,1,,,
+Public Method,com.stalary.pf.user.service.UserInfoService.save,,,1,,,
+Public Method,com.stalary.pf.user.service.UserInfoService.saveEs,,,1,,,
+Public Method,com.stalary.pf.user.service.UserInfoService.uploadAvatar,,,2,,,
+,,,,,,,
+,,,,,,,
+TOTAL,,1,10,387,1120,2,11

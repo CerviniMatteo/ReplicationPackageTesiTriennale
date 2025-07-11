@@ -1,0 +1,75 @@
+Kind,Name,AvgCyclomatic,CountClassCoupled,MaxCyclomatic,Cyclomatic,MaxInheritanceTree,PercentLackOfCohesion,SumCyclomatic
+Package,cn.edu.bit.cangjingge.common,0,,,0,,,0
+Package,cn.edu.bit.cangjingge.common.dto,1,,,1,,,1
+Public Class,cn.edu.bit.cangjingge.common.dto.AliyunOssAuthorization,1,3,,1,1,0,1
+Public Constructor,cn.edu.bit.cangjingge.common.dto.AliyunOssAuthorization.AliyunOssAuthorization,,,1,,,,1
+Package,cn.edu.bit.cangjingge.common.entity,0,,,0,,,0
+Public Class,cn.edu.bit.cangjingge.common.entity.Bookshelf,0,4,,0,1,0,0
+Public Class,cn.edu.bit.cangjingge.common.entity.Fiction,0,6,,0,1,0,0
+Public Class,cn.edu.bit.cangjingge.common.entity.FictionChapter,0,5,,0,1,0,0
+Public Class,cn.edu.bit.cangjingge.common.entity.FictionReview,0,7,,0,1,0,0
+Package,cn.edu.bit.cangjingge.common.exception,1,,,1,,,2
+Public Class,cn.edu.bit.cangjingge.common.exception.BusinessException,1,3,,1,2,50,2
+Public Constructor,cn.edu.bit.cangjingge.common.exception.BusinessException.BusinessException,,,1,,,,1
+Public Constructor,cn.edu.bit.cangjingge.common.exception.BusinessException.BusinessException,,,1,,,,1
+Package,cn.edu.bit.cangjingge.common.handler,2,,,3,,,7
+Public Class,cn.edu.bit.cangjingge.common.handler.RestExceptionHandler,2,15,,3,2,0,7
+Public Method,cn.edu.bit.cangjingge.common.handler.RestExceptionHandler.handleBusinessException,,,1,,,,1
+Public Method,cn.edu.bit.cangjingge.common.handler.RestExceptionHandler.handleRuntimeException,,,2,,,,2
+Public Method,cn.edu.bit.cangjingge.common.handler.RestExceptionHandler.handleUndeclaredThrowableException,,,3,,,,3
+Public Method,cn.edu.bit.cangjingge.common.handler.RestExceptionHandler.handleUnknownError,,,1,,,,1
+Package,cn.edu.bit.cangjingge.common.response,0,,,1,,,1
+Public Generic Class,cn.edu.bit.cangjingge.common.response.Response,0,6,,0,1,0,0
+Generic Parameter,cn.edu.bit.cangjingge.common.response.Response.T,0,0,,0,1,0,0
+Public Enum Type,cn.edu.bit.cangjingge.common.response.ResponseStatusEnum,0,2,,1,1,,1
+Constructor,cn.edu.bit.cangjingge.common.response.ResponseStatusEnum.ResponseStatusEnum,,,1,,,,1
+Public Implicit Method,cn.edu.bit.cangjingge.common.response.ResponseStatusEnum.valueOf,,,,,,,0
+Public Implicit Method,cn.edu.bit.cangjingge.common.response.ResponseStatusEnum.values,,,,,,,0
+Package,cn.edu.bit.cangjingge.common.security,2,,,5,,,8
+Public Annotation,cn.edu.bit.cangjingge.common.security.RequiresAuthorization,0,2,,0,0,0,0
+Abstract Method,cn.edu.bit.cangjingge.common.security.RequiresAuthorization.value,,,0,,,,0
+Public Class,cn.edu.bit.cangjingge.common.security.RequiresAuthorizationAspect,3,17,,5,1,67,8
+Private Static Method,cn.edu.bit.cangjingge.common.security.RequiresAuthorizationAspect.checkAccess,,,5,,,,5
+Public Method,cn.edu.bit.cangjingge.common.security.RequiresAuthorizationAspect.doCheck,,,2,,,,2
+Private Static Generic Method,cn.edu.bit.cangjingge.common.security.RequiresAuthorizationAspect.getJoinPointAnnotation,,,1,,,,1
+Generic Parameter,cn.edu.bit.cangjingge.common.security.RequiresAuthorizationAspect.getJoinPointAnnotation.T,0,1,,0,0,0,0
+Public Enum Type,cn.edu.bit.cangjingge.common.security.UserRoleEnum,0,1,,0,1,,0
+Public Implicit Method,cn.edu.bit.cangjingge.common.security.UserRoleEnum.valueOf,,,,,,,0
+Public Implicit Method,cn.edu.bit.cangjingge.common.security.UserRoleEnum.values,,,,,,,0
+Package,cn.edu.bit.cangjingge.common.service,0,,,0,,,0
+Public Interface,cn.edu.bit.cangjingge.common.service.AuthorizationService,0,6,,0,0,0,0
+Abstract Method,cn.edu.bit.cangjingge.common.service.AuthorizationService.checkToken,,,0,,,,0
+Abstract Method,cn.edu.bit.cangjingge.common.service.AuthorizationService.register,,,0,,,,0
+Package,cn.edu.bit.cangjingge.common.swagger,1,,,1,,,4
+Public Class,cn.edu.bit.cangjingge.common.swagger.SwaggerConfig,1,15,,1,1,75,4
+Private Method,cn.edu.bit.cangjingge.common.swagger.SwaggerConfig.apiInfo,,,1,,,,1
+Public Method,cn.edu.bit.cangjingge.common.swagger.SwaggerConfig.createRestApi,,,1,,,,1
+Private Method,cn.edu.bit.cangjingge.common.swagger.SwaggerConfig.description,,,1,,,,1
+Private Method,cn.edu.bit.cangjingge.common.swagger.SwaggerConfig.globalOperationParameters,,,1,,,,1
+Package,cn.edu.bit.cangjingge.common.util,1,,,2,,,19
+Public Class,cn.edu.bit.cangjingge.common.util.FileUtil,2,1,,2,1,0,2
+Public Static Method,cn.edu.bit.cangjingge.common.util.FileUtil.getExtensionName,,,2,,,,2
+Public Class,cn.edu.bit.cangjingge.common.util.ResponseUnpacker,2,3,,2,1,0,2
+Public Static Generic Method,cn.edu.bit.cangjingge.common.util.ResponseUnpacker.unpack,,,2,,,,2
+Generic Parameter,cn.edu.bit.cangjingge.common.util.ResponseUnpacker.unpack.T,0,0,,0,1,0,0
+Public Class,cn.edu.bit.cangjingge.common.util.ResponseUtil,1,3,,1,1,0,5
+Public Static Method,cn.edu.bit.cangjingge.common.util.ResponseUtil.error,,,1,,,,1
+Public Static Method,cn.edu.bit.cangjingge.common.util.ResponseUtil.error,,,1,,,,1
+Public Static Generic Method,cn.edu.bit.cangjingge.common.util.ResponseUtil.success,,,1,,,,1
+Public Static Method,cn.edu.bit.cangjingge.common.util.ResponseUtil.success,,,1,,,,1
+Generic Parameter,cn.edu.bit.cangjingge.common.util.ResponseUtil.success.T,0,0,,0,1,0,0
+Private Static Method,cn.edu.bit.cangjingge.common.util.ResponseUtil.timestamp,,,1,,,,1
+Public Class,cn.edu.bit.cangjingge.common.util.TokenUtil,2,14,,2,1,0,10
+Public Static Method,cn.edu.bit.cangjingge.common.util.TokenUtil.getTokenFromHeaders,,,1,,,,1
+Public Static Method,cn.edu.bit.cangjingge.common.util.TokenUtil.getUserRoles,,,2,,,,2
+Public Static Method,cn.edu.bit.cangjingge.common.util.TokenUtil.getUsername,,,2,,,,2
+Public Static Method,cn.edu.bit.cangjingge.common.util.TokenUtil.getUsernameFromHeaders,,,1,,,,1
+Public Static Method,cn.edu.bit.cangjingge.common.util.TokenUtil.sign,,,2,,,,2
+Public Static Method,cn.edu.bit.cangjingge.common.util.TokenUtil.verify,,,2,,,,2
+,,,,,,,,
+,,,,,,,,
+,,1,114,5,,2,10,126
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+TOTAL,,1,96,0,,2,15,83
