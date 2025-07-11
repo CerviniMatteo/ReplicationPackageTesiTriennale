@@ -1,7 +1,7 @@
-Metric, Script
-AvgCyclomatic,"=CEILING(AVERAGEIFS(Data[Cyclomatic], Data[Type], ""Public Class"") + AVERAGEIFS(Data[Cyclomatic], Data[Type], ""Package""), 1)"
-MaxCyclomatic,"=MAXIFS(Data[MaxCyc], Data[Type], ""Public Class"", Data[MaxCyc], ""<>"")"
-SumCyclomatic,"=SUMIFS(Data[SumCyc], Data[Type], ""Public Class"") + SUMIFS(Data[SumCyc], Data[Type], ""Package"")"
-CountClassCoupled,"=SUMIFS(Data[ClassCoupled], Data[Type], ""Public Class"") + SUMIFS(Data[ClassCoupled], Data[Type], ""Package"")"
-MaxInheritanceTree,"=MAXIFS(Data[InheritanceTree], Data[Type], ""Public Class"", Data[InheritanceTree], ""<>"")"
-PercentLackOfCohesion,"=CEILING(AVERAGEIFS(Data[LackOfCohesion], Data[Type], ""Public Class""), 1)"
+Metric,Formula
+AvgCyclomatic,"=CEILING((SUMIF(A:A, ""Package"", C:C) + SUMIF(A:A, ""Public Class"", C:C)) / (COUNTIF(A:A, ""Package"") + COUNTIF(A:A, ""Public Class"")), 1)"
+MaxCyclomatic,"=MAX(MAXIFS(D:D, A:A, ""Package""), MAXIFS(D:D, A:A, ""Public Class""))"
+SumCyclomatic,"=SUMIF(A:A, ""Package"", E:E) + SUMIF(A:A, ""Public Class"", E:E)"
+CountClassCoupled,"=SUMIF(A:A, ""Package"", F:F) + SUMIF(A:A, ""Public Class"", F:F)"
+MaxInheritanceTree,"=MAX(MAXIFS(G:G, A:A, ""Package""), MAXIFS(G:G, A:A, ""Public Class""))"
+PercentLackOfCohesionModified,"=CEILING(AVERAGEIF(A:A, ""Public Class"", H:H), 1)"
