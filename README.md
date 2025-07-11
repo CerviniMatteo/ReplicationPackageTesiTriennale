@@ -37,5 +37,5 @@ This replication package contains:
         ├── microservice-recruit project/
         │   └── <n>th analysis/
         │       ├── microservice-recruit[-n].csv
-- Scripts used to manage Understand tool analysis
+- Scripts used to manage Understand tool analysis: 📄 [Script File](./understand_metrics_script.csv)
 - Generated diagrams
